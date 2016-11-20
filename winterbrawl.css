@@ -55,8 +55,8 @@ body {
     display:block;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 0 25px 0;
-    width: 66%
+    padding: 0 0 25px ;0
+
 }
 
 .rules{
@@ -64,19 +64,35 @@ body {
     width: 33%;
 }
 
+.rules li {
+    font-size: 16;
+    color: #282828;
+}
+
 .intro-text {
     float: left;
     width: 66%;
 }
 
+.intro-text p {
+   font-size: 16;
+   font-weight: bold;
+   color: #282828;
+}
+
 .expo h1 {
     color: #4E9CD5;
+    font-size: 30;
+}
+
+.signup{
+    padding: 30px 0 0 0;
 }
 
 .signupbtn {
     position:relative;
-    width: 20%;
-    margin: 0 40% 0 40%;
+    width: 40%;
+    margin: 0 30% 0 30%;
     height: 54px;
     padding: 0;
     font-size: 22px;
