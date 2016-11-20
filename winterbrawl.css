@@ -1,7 +1,10 @@
 body {
     font-family: 'Istok Web', sans-serif;
+    background: url('http://i.imgur.com/GfdAKzU.jpg');
     background-color: #282828;
-    background-size: cover;min-height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100%;
     margin: 0;
 }
 
@@ -30,7 +33,7 @@ body {
 }
 
 .header-wrap {
-    padding: 3.5em 10px;
+    padding: 12% 10px;
 }
 
 .header p.intro {
