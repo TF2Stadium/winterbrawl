@@ -69,6 +69,12 @@ body {
     color: #282828;
 }
 
+.rules a {
+    color: #4E9CD5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .intro-text {
     float: left;
     width: 66%;
